@@ -11,5 +11,5 @@ public record SettlementMessage(
         String currency,
         Party payerParty,
         Party receiverParty,
-        String supportInformation
+        String supportingInformation
 ) {}
