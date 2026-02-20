@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Repository
+//@Repository
 public class InMemorySettlementMessageRepository implements SettlementMessageRepository {
     private final ConcurrentHashMap<String, SettlementMessage> store = new ConcurrentHashMap<>();
 

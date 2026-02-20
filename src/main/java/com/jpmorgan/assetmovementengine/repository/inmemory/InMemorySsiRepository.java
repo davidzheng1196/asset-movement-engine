@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Map;
 import java.util.Optional;
 
-@Repository
+//@Repository
 public class InMemorySsiRepository implements SsiRepository {
 
     private static final Map<String, SsiRecord> SSI_BY_CODE = Map.of(
